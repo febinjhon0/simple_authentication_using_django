@@ -33,4 +33,60 @@ It includes:
 
 ---
 
-## 📂 Project Structure
+
+---
+
+## ⚙️ Installation Guide
+
+### 1️⃣ Clone the Repository
+
+### 2️⃣ Create Virtual Environment (Optional but Recommended)
+
+### 3️⃣ Install Dependencies
+
+### 4️⃣ Apply Migrations
+
+### 5️⃣ Run the Server
+
+---
+
+## 🔐 Authentication Flow
+
+- `create_user()` → Creates user with hashed password
+- `authenticate()` → Verifies username & password
+- `login()` → Creates session
+- `logout()` → Destroys session
+- `request.user` → Returns logged-in user
+
+---
+
+## 📌 Important Tables in SQLite
+
+- auth_user
+- django_session
+- django_admin_log
+- django_migrations
+
+---
+
+## 📖 Future Improvements
+
+- Add password validation
+- Use Django Forms
+- Add email verification
+- Connect MySQL/PostgreSQL
+- Add profile page
+- Use Bootstrap for UI styling
+
+---
+
+## 👨‍💻 Author
+
+Your Name
+
+---
+
+## 📜 License
+
+This project is for educational purposes.
+
